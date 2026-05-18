@@ -1,5 +1,4 @@
--- ©AngelaMos | 2026
--- 005_sessions.sql
+﻿-- 005_sessions.sql
 
 -- +goose Up
 CREATE TABLE sessions (

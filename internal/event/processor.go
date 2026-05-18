@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 processor.go
 
 Event processing pipeline with bounded worker pool

@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 tracker.go
 
 Thread-safe active session tracker

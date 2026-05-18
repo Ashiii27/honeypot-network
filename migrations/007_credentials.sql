@@ -1,5 +1,4 @@
--- ©AngelaMos | 2026
--- 007_credentials.sql
+﻿-- 007_credentials.sql
 
 -- +goose Up
 CREATE TABLE credentials (

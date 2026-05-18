@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 server.go
 
 SMB honeypot service handling NetBIOS negotiate requests

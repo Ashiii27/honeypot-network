@@ -1,5 +1,4 @@
-# ©AngelaMos | 2026
-# go.prod
+﻿# go.prod
 
 FROM golang:1.25-alpine AS builder
 

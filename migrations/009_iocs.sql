@@ -1,5 +1,4 @@
--- ©AngelaMos | 2026
--- 009_iocs.sql
+﻿-- 009_iocs.sql
 
 -- +goose Up
 CREATE TABLE iocs (

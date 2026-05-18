@@ -1,5 +1,4 @@
-// ©AngelaMos | 2026
-// index.tsx
+﻿// index.tsx
 
 import { useState } from 'react'
 import { useEvents } from '@/api/hooks'

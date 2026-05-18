@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 bus.go
 
 In-process event bus with fan-out pub/sub for honeypot events

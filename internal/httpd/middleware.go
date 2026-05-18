@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 middleware.go
 
 Request capture middleware for the HTTP honeypot

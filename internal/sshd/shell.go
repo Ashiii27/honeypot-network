@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 shell.go
 
 Interactive shell emulation for the SSH honeypot

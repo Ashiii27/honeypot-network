@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 limiter.go
 
 Per-IP token bucket rate limiter with automatic cleanup

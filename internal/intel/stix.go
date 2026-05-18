@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 stix.go
 
 STIX 2.1 threat intelligence export for honeypot IOCs

@@ -1,5 +1,4 @@
--- ©AngelaMos | 2026
--- 010_mitre.sql
+﻿-- 010_mitre.sql
 
 -- +goose Up
 CREATE TABLE mitre_detections (

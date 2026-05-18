@@ -1,5 +1,4 @@
-// ©AngelaMos | 2026
-// index.tsx
+﻿// index.tsx
 
 import { Link } from 'react-router-dom'
 import { useAttackers } from '@/api/hooks'

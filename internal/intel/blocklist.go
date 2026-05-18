@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 blocklist.go
 
 Blocklist export in multiple firewall and proxy formats

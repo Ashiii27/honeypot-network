@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 tracker_test.go
 */
 

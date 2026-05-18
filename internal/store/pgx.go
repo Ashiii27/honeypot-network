@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 pgx.go
 
 PostgreSQL implementation of all repository interfaces using pgxpool

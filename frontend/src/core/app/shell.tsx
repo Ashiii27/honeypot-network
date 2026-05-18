@@ -1,5 +1,4 @@
-// ©AngelaMos | 2026
-// shell.tsx
+﻿// shell.tsx
 
 import { useEffect } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'

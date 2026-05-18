@@ -1,5 +1,4 @@
-# ©AngelaMos | 2026
-# go.dev
+﻿# go.dev
 
 FROM golang:1.25-alpine
 

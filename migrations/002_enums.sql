@@ -1,5 +1,4 @@
--- ©AngelaMos | 2026
--- 002_enums.sql
+﻿-- 002_enums.sql
 
 -- +goose Up
 CREATE TYPE service_type AS ENUM (

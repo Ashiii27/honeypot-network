@@ -1,5 +1,4 @@
-# ©AngelaMos | 2026
-# vite.dev
+﻿# vite.dev
 
 FROM node:24-alpine
 

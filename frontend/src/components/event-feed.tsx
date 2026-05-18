@@ -1,5 +1,4 @@
-// ©AngelaMos | 2026
-// event-feed.tsx
+﻿// event-feed.tsx
 
 import { useWebSocketStore } from '@/core/lib/websocket.store'
 import { ServiceBadge } from './service-badge'

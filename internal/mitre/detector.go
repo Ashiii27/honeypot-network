@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 detector.go
 
 Rule engine for detecting MITRE ATT&CK techniques from honeypot events

@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 ioc.go
 
 Indicator of Compromise extraction from honeypot events

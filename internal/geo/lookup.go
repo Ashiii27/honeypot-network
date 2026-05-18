@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 lookup.go
 
 GeoIP resolution using MaxMind GeoLite2 database

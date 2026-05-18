@@ -1,5 +1,4 @@
--- ©AngelaMos | 2026
--- 011_indexes.sql
+﻿-- 011_indexes.sql
 
 -- +goose Up
 CREATE INDEX idx_events_service_data ON events USING GIN (service_data);

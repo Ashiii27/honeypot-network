@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 redis.go
 
 Redis Streams client for real-time event streaming

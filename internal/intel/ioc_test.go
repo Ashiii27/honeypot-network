@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 ioc_test.go
 */
 

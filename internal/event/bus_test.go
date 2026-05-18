@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 bus_test.go
 
 Tests for the event bus fan-out pub/sub system

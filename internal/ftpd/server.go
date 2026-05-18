@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 server.go
 
 FTP honeypot service accepting file transfer client connections

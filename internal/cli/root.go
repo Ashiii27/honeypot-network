@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 root.go
 
 Cobra root command and CLI entry point for hive

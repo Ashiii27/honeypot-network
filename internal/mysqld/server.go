@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 server.go
 
 MySQL honeypot service accepting database client connections

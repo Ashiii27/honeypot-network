@@ -1,5 +1,4 @@
-// ©AngelaMos | 2026
-// attack-map.tsx
+﻿// attack-map.tsx
 
 import { CircleMarker, MapContainer, TileLayer, Tooltip } from 'react-leaflet'
 import type { Attacker } from '@/api/types'

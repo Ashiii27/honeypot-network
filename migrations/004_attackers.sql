@@ -1,5 +1,4 @@
--- ©AngelaMos | 2026
--- 004_attackers.sql
+﻿-- 004_attackers.sql
 
 -- +goose Up
 CREATE TABLE attackers (

@@ -1,5 +1,4 @@
-# ©AngelaMos | 2026
-# vite.prod
+﻿# vite.prod
 
 FROM node:24-alpine AS builder
 

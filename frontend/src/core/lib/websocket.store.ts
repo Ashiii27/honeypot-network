@@ -1,5 +1,4 @@
-// ©AngelaMos | 2026
-// websocket.store.ts
+﻿// websocket.store.ts
 
 import { create } from 'zustand'
 import type { HoneypotEvent } from '@/api/types'

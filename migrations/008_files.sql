@@ -1,5 +1,4 @@
--- ©AngelaMos | 2026
--- 008_files.sql
+﻿-- 008_files.sql
 
 -- +goose Up
 CREATE TABLE captured_files (

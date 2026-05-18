@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 server.go
 
 SSH honeypot service accepting all authentication attempts

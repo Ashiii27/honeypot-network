@@ -1,5 +1,4 @@
-// ©AngelaMos | 2026
-// router.tsx
+﻿// router.tsx
 
 import { createBrowserRouter } from 'react-router-dom'
 import { AttackersPage } from '@/pages/attackers'

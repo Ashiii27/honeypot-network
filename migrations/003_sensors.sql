@@ -1,5 +1,4 @@
--- ©AngelaMos | 2026
--- 003_sensors.sql
+﻿-- 003_sensors.sql
 
 -- +goose Up
 CREATE TABLE sensors (

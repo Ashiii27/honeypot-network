@@ -35,7 +35,6 @@ const (
 	maxPageLimit         = 500
 	defaultStatsDuration = 24 * time.Hour
 	defaultCredentialTop = 20
-	defaultAttackerTop   = 50
 	corsMaxAgeSeconds    = "86400"
 	wsEventBuffer        = 256
 )

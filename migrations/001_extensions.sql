@@ -1,5 +1,4 @@
--- ©AngelaMos | 2026
--- 001_extensions.sql
+﻿-- 001_extensions.sql
 
 -- +goose Up
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";

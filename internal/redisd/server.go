@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 server.go
 
 Redis RESP protocol honeypot using the redcon library

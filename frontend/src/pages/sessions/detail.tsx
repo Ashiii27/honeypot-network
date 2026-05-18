@@ -1,5 +1,4 @@
-// ©AngelaMos | 2026
-// detail.tsx
+﻿// detail.tsx
 
 import { Link, useParams } from 'react-router-dom'
 import { useSession, useSessionReplay } from '@/api/hooks'

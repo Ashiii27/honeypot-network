@@ -1,5 +1,4 @@
-// ©AngelaMos | 2026
-// service-badge.tsx
+﻿// service-badge.tsx
 
 import type { ServiceType } from '@/api/types'
 import styles from './service-badge.module.scss'

@@ -1,5 +1,4 @@
-// ©AngelaMos | 2026
-// index.tsx
+﻿// index.tsx
 
 import { useMitreHeatmap, useMitreTechniques } from '@/api/hooks'
 import styles from './mitre.module.scss'

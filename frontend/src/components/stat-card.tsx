@@ -1,5 +1,4 @@
-// ©AngelaMos | 2026
-// stat-card.tsx
+﻿// stat-card.tsx
 
 import styles from './stat-card.module.scss'
 

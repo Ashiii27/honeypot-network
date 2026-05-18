@@ -1,5 +1,4 @@
--- ©AngelaMos | 2026
--- 006_events.sql
+﻿-- 006_events.sql
 
 -- +goose Up
 CREATE TABLE events (

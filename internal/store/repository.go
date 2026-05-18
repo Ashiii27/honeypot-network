@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 repository.go
 
 Repository interfaces for all persistent data access

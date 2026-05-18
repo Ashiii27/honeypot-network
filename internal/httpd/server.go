@@ -1,5 +1,4 @@
-/*
-©AngelaMos | 2026
+﻿/*
 server.go
 
 HTTP honeypot service emulating a WordPress/phpMyAdmin web server
