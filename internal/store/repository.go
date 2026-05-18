@@ -16,7 +16,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/CarterPerez-dev/hive/pkg/types"
+	"github.com/Ashiii27/honeypot-network/pkg/types"
 )
 
 type EventRepository interface {

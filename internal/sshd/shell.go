@@ -24,10 +24,10 @@ import (
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/term"
 
-	"github.com/CarterPerez-dev/hive/internal/config"
-	"github.com/CarterPerez-dev/hive/internal/event"
-	"github.com/CarterPerez-dev/hive/internal/session"
-	"github.com/CarterPerez-dev/hive/pkg/types"
+	"github.com/Ashiii27/honeypot-network/internal/config"
+	"github.com/Ashiii27/honeypot-network/internal/event"
+	"github.com/Ashiii27/honeypot-network/internal/session"
+	"github.com/Ashiii27/honeypot-network/pkg/types"
 )
 
 func RunShell(

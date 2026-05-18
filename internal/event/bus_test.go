@@ -14,8 +14,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CarterPerez-dev/hive/internal/config"
-	"github.com/CarterPerez-dev/hive/pkg/types"
+	"github.com/Ashiii27/honeypot-network/internal/config"
+	"github.com/Ashiii27/honeypot-network/pkg/types"
 )
 
 func testEvent(_ string) *types.Event {

@@ -18,8 +18,8 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"github.com/CarterPerez-dev/hive/internal/config"
-	"github.com/CarterPerez-dev/hive/pkg/types"
+	"github.com/Ashiii27/honeypot-network/internal/config"
+	"github.com/Ashiii27/honeypot-network/pkg/types"
 )
 
 type RedisStreamer struct {

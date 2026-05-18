@@ -1,5 +1,4 @@
 /*
-©AngelaMos | 2026
 serve.go
 
 The serve subcommand starts all honeypot services
@@ -23,22 +22,22 @@ import (
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/time/rate"
 
-	"github.com/CarterPerez-dev/hive/internal/api"
-	"github.com/CarterPerez-dev/hive/internal/config"
-	"github.com/CarterPerez-dev/hive/internal/event"
-	"github.com/CarterPerez-dev/hive/internal/ftpd"
-	"github.com/CarterPerez-dev/hive/internal/geo"
-	"github.com/CarterPerez-dev/hive/internal/httpd"
-	"github.com/CarterPerez-dev/hive/internal/mitre"
-	"github.com/CarterPerez-dev/hive/internal/mysqld"
-	"github.com/CarterPerez-dev/hive/internal/ratelimit"
-	"github.com/CarterPerez-dev/hive/internal/redisd"
-	"github.com/CarterPerez-dev/hive/internal/session"
-	"github.com/CarterPerez-dev/hive/internal/smbd"
-	"github.com/CarterPerez-dev/hive/internal/sshd"
-	"github.com/CarterPerez-dev/hive/internal/store"
-	"github.com/CarterPerez-dev/hive/internal/ui"
-	"github.com/CarterPerez-dev/hive/pkg/types"
+	"github.com/Ashiii27/honeypot-network/internal/api"
+	"github.com/Ashiii27/honeypot-network/internal/config"
+	"github.com/Ashiii27/honeypot-network/internal/event"
+	"github.com/Ashiii27/honeypot-network/internal/ftpd"
+	"github.com/Ashiii27/honeypot-network/internal/geo"
+	"github.com/Ashiii27/honeypot-network/internal/httpd"
+	"github.com/Ashiii27/honeypot-network/internal/mitre"
+	"github.com/Ashiii27/honeypot-network/internal/mysqld"
+	"github.com/Ashiii27/honeypot-network/internal/ratelimit"
+	"github.com/Ashiii27/honeypot-network/internal/redisd"
+	"github.com/Ashiii27/honeypot-network/internal/session"
+	"github.com/Ashiii27/honeypot-network/internal/smbd"
+	"github.com/Ashiii27/honeypot-network/internal/sshd"
+	"github.com/Ashiii27/honeypot-network/internal/store"
+	"github.com/Ashiii27/honeypot-network/internal/ui"
+	"github.com/Ashiii27/honeypot-network/pkg/types"
 )
 
 func newServeCmd() *cobra.Command {
@@ -100,8 +99,14 @@ func runServe(ctx context.Context) error {
 	}
 	defer func() { _ = geoLookup.Close() }()
 
+	// Snapshot the original context before errgroup.WithContext reassigns
+	// the ctx variable below. Callbacks must outlive any single service
+	// failure — using the errgroup-derived ctx would cause all DB writes
+	// to fail silently the moment any one service exits with an error.
+	persistCtx := ctx
+
 	tracker.SetOnStart(func(sess *types.Session) {
-		if err := pgStore.InsertSession(ctx, sess); err != nil {
+		if err := pgStore.InsertSession(persistCtx, sess); err != nil {
 			logger.Error().Err(err).
 				Str("session_id", sess.ID).
 				Msg("failed to persist session start")
@@ -109,7 +114,7 @@ func runServe(ctx context.Context) error {
 	})
 
 	tracker.SetOnEnd(func(sess *types.Session) {
-		if err := pgStore.UpdateSession(ctx, sess); err != nil {
+		if err := pgStore.UpdateSession(persistCtx, sess); err != nil {
 			logger.Error().Err(err).
 				Str("session_id", sess.ID).
 				Msg("failed to persist session end")

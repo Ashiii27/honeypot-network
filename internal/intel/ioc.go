@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/CarterPerez-dev/hive/pkg/types"
+	"github.com/Ashiii27/honeypot-network/pkg/types"
 )
 
 var urlPattern = regexp.MustCompile(

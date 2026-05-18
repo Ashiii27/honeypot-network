@@ -21,8 +21,8 @@ import (
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 
-	"github.com/CarterPerez-dev/hive/internal/config"
-	"github.com/CarterPerez-dev/hive/internal/ui"
+	"github.com/Ashiii27/honeypot-network/internal/config"
+	"github.com/Ashiii27/honeypot-network/internal/ui"
 )
 
 var (

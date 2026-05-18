@@ -1,5 +1,4 @@
 /*
-©AngelaMos | 2026
 handlers.go
 
 REST endpoint handlers for the hive dashboard API
@@ -24,8 +23,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/CarterPerez-dev/hive/internal/intel"
-	"github.com/CarterPerez-dev/hive/pkg/types"
+	"github.com/Ashiii27/honeypot-network/internal/intel"
+	"github.com/Ashiii27/honeypot-network/pkg/types"
 )
 
 type apiResponse struct {

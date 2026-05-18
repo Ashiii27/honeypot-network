@@ -18,7 +18,7 @@ import (
 
 	"github.com/oschwald/maxminddb-golang"
 
-	"github.com/CarterPerez-dev/hive/pkg/types"
+	"github.com/Ashiii27/honeypot-network/pkg/types"
 )
 
 type mmdbRecord struct {
